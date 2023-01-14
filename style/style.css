@@ -7,3 +7,128 @@
     margin: 0;
     padding: 0;
 }
+p{
+    color: #727272;
+}
+/* primry root */
+:root{
+    --color: #FF900E;
+}
+/* primary btn */
+.btn{
+background: var(--color);
+padding: 20px 25px;
+color: #fff;
+border: 0;
+border-radius: 5px;
+}
+/* this is header style sheet  */
+.banner {
+    background:#FF900E1A;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+/* banner main */
+.banner-content {
+    margin: 80px auto 33px;
+    width: 700px;
+    /* height: 250px; */
+    text-align: center;
+}
+
+.banner-title {
+    margin-bottom: 30px;
+    font-size: 64px;
+}
+
+.banner-para {
+    color: #131313;
+    margin: 30px;
+}
+.banner-photo{
+    margin: 50px auto 40px;
+    text-align: center;
+}
+
+/* Future plan style  */
+.future{
+    display: flex;
+    margin: 86px 100px;
+    gap: 70px;
+    align-items: center;
+}
+.future-info{
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.future-photo img{
+    width: 350px;
+    height: 350px;
+}
+.future-content{
+    width: 50%;
+}
+.future-title{
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.future-para{
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+/* Love and Enjoy style */
+.love{
+    margin: 50px 100px;
+    display: flex;
+}
+.love-content{}
+.love-content-fast{}
+.love-content-title{}
+.love-content-para{
+    margin-bottom: 30px;
+}
+.love-content-fast{
+    /* font-size: 45px; */
+}
+.love-content-title h2{
+    font-size: 45px;
+    padding-left: 10px;
+    border-left: 5px solid var(--color);
+    margin-bottom: 25px;
+}
+.love-content-secend{
+    
+}
+.love-secend-description{
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.love-secend-title{
+    margin-bottom: 12px;
+}
+.love-photo{}
