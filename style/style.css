@@ -106,24 +106,18 @@ border-radius: 5px;
     margin: 50px 100px;
     display: flex;
 }
-.love-content{}
-.love-content-fast{}
-.love-content-title{}
+
 .love-content-para{
     margin-bottom: 30px;
 }
-.love-content-fast{
-    /* font-size: 45px; */
-}
+
 .love-content-title h2{
     font-size: 45px;
     padding-left: 10px;
     border-left: 5px solid var(--color);
     margin-bottom: 25px;
 }
-.love-content-secend{
-    
-}
+
 .love-secend-description{
     padding: 30px;
     margin-bottom: 20px;
@@ -131,4 +125,31 @@ border-radius: 5px;
 .love-secend-title{
     margin-bottom: 12px;
 }
-.love-photo{}
+
+
+/* Some fact */
+.fact{
+    margin: 100px 100px;
+    width: 520px;
+}
+.fact-title{
+    font-size: 45px;
+    margin-bottom: 45px;
+}
+/* History */
+.history{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    margin: 50px 100px;
+}
+.history-content{
+    border: 2px solid var(--color);
+    text-align: center;
+    border-radius: 4px;
+    padding: 30px;
+}
+.history-title{
+    margin: 10px 0;
+}
+.history-para{}
