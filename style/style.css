@@ -192,8 +192,10 @@ p {
     font-size: 45px;
 }
 .sponser-photo{
+    width: 80%;
     display: flex;
-    gap: 80px;
+    justify-content:space-between ;
+    /* gap: 80px; */
 }
 
 /* Footer style sheet */
@@ -269,5 +271,16 @@ p {
     color: #fff;
     font-weight: 700;
     transform: scale(0.9);
+}
+.sponser-photo{
+    width: 80%;
+    flex-direction: column;
+    gap: 10px;
+    /* gap: 80px; */
+}
+.sponser-content{
+    margin-bottom: 50px;
+    width: 90%;
+    margin: 50px 15px 80px;
 }
 }
